@@ -2,7 +2,7 @@
 # My neovim config.
 
 This config is mainly just for me whenever I need to install neovim on a new computer.  
-It's probably pretty bad compared to yours or anyone else`s but hey it's here if you need it for some reason.
+It's probably pretty bad compared to yours or anyone else's but hey it's here if you need it for some reason.
 
 # Requirements
 
