@@ -4,10 +4,14 @@
 This config is mainly just for me whenever I need to install neovim on a new computer.  
 It's probably pretty bad compared to yours or anyone else`s but hey it's here if you need it for some reason.
 
+# Requirements
+
+
+To set up this neovim config, you need a C compiler that you can run from the terminal. I use minGW to get gcc, but cc, clang, cl, and zig are also available to use.
 
 # Installation
 
-To set up this neovim config, first install packer.nvim (Installation as of August 2023, check [wbthomason/packer.nvim](wbthomason/packer.nvim) for current installation)
+First install packer.nvim (Installation as of August 2023, check [wbthomason/packer.nvim](wbthomason/packer.nvim) for current installation)
 
 > Windows (Powershell):
  
@@ -40,6 +44,7 @@ C:\Users\<USER>\AppData\Local\nvim
 <br>
 
 Then you can run ```:PackerSync``` once neovim is open.  
-After all of the plugins are done installing / updating just restart neovim for the changes to take effect.  
+After all of the plugins are done installing / updating, restart neovim.
+Run ```:PackerSync``` and restart one more time and you should be good to go!
 
 
