@@ -9,7 +9,7 @@ It's probably pretty bad compared to yours or anyone else`s but hey it's here if
 
 To set up this neovim config, first install packer.nvim (Installation as of August 2023, check [wbthomason/packer.nvim](wbthomason/packer.nvim) for current installation)
 
-> Windows:
+> Windows (Powershell):
  
 ```cmd
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
