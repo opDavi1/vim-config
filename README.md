@@ -10,6 +10,12 @@ It's probably pretty bad compared to yours or anyone else's but hey it's here if
 
 - You need a C compiler installed and in your PATH environment variable. I use minGW to get clang, but cc, gcc, cl, and zig are also available to use. If you're on Linux you likely already have a C compiler installed.
 - Node.js is also required for NPM.
+<br>
+<br>
+
+> For the Java language server (jdtls):
+
+- You need to have Java installed (duh)
 
 # Installation
 
