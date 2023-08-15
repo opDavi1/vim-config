@@ -7,7 +7,7 @@ It's probably pretty bad compared to yours or anyone else`s but hey it's here if
 # Requirements
 
 
-To set up this neovim config, you need a C compiler that you can run from the terminal. I use minGW to get gcc, but cc, clang, cl, and zig are also available to use.
+To set up this neovim config, you need a C compiler installed and in your PATH environment variable. I use minGW to get clang, but cc, gcc, cl, and zig are also available to use.
 
 # Installation
 
