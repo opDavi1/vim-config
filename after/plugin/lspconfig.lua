@@ -39,9 +39,10 @@ cmp.setup({
 })
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-require("lspconfig").lua_ls.setup {capabilities = capabilities}
-require("lspconfig").tsserver.setup {capabilities = capabilities}
-require("lspconfig").pyright.setup {capabilities = capabilities}
-require("lspconfig").html.setup {capabilities = capabilities}
-require("lspconfig").cssls.setup {capabilities = capabilities}
-require("lspconfig").jdtls.setup {capabilities = capabilities}
+lspconfig = require("lspconfig")
+lspconfig.lua_ls.setup {capabilities = capabilities}
+lspconfig.tsserver.setup {capabilities = capabilities}
+lspconfig.pyright.setup {capabilities = capabilities}
+lspconfig.html.setup {capabilities = capabilities}
+lspconfig.cssls.setup {capabilities = capabilities}
+lspconfig.jdtls.setup {capabilities = capabilities}
