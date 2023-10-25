@@ -53,6 +53,6 @@ C:\Users\<USER>\AppData\Local\nvim
 
 Then you can run ```:PackerSync``` once neovim is open.  
 After all of the plugins are done installing / updating, restart neovim.
-Run ```:PackerSync``` and restart one more time and you should be good to go!
+Run ```:PackerSync``` and restart one more time and pray to god that none of the packages had any updates that break this config and you should be good to go!
 
 
